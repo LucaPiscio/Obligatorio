@@ -27,9 +27,6 @@
             this.phone = phone;
             this.idRespon = idRespon;
         }
-        public Local()
-        {
-
-        }
+    
     }
 }

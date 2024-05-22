@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\clases",
+    "\\Pages",
+    "\\Pages\\PagesSocios",
+    "\\persistencia"
   ],
-  "SelectedNode": "\\obligatorio.sln",
+  "SelectedNode": "\\clases\\Local.cs",
   "PreviewInSolutionExplorer": false
 }
