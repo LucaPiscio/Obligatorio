@@ -9,37 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = obligatorio
 build_property.RootNamespace = obligatorio
-build_property.ProjectDir = C:\Users\Lpv_7\source\repos\LucaPiscio\obligatorio\
+build_property.ProjectDir = C:\Users\Lpv_7\source\repos\LucaPiscio\Obligatorio\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lpv_7\source\repos\LucaPiscio\obligatorio
+build_property.MSBuildProjectDirectory = C:\Users\Lpv_7\source\repos\LucaPiscio\Obligatorio
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/Error.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/Index.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/Privacy.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/PagesMaquinas/AddMaquina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNNYXF1aW5hc1xBZGRNYXF1aW5hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/PagesSocios/AddSocio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNTb2Npb3NcQWRkU29jaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/_ViewImports.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/_ViewStart.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lpv_7/source/repos/LucaPiscio/obligatorio/Pages/Shared/_Layout.cshtml]
+[C:/Users/Lpv_7/source/repos/LucaPiscio/Obligatorio/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0nmh53y8tw
