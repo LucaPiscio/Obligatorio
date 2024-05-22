@@ -38,7 +38,9 @@
 
 </div>
 agregar lista a Local para usar en model
- public static List<Locales>
+<script>
+    public static List<Locales>
+
     Getlocales()
     {
     string sql = "SELECT * FROM Local";
@@ -50,10 +52,8 @@ agregar lista a Local para usar en model
             ();
             foreach (DataRow row in data.Tables[0].Rows)
             {
-
-            prestamos.Add(new Prestamo(Convert.ToDateTime(row["fecha"]), PVehiculo.GetVehiculo(row["matriculavehiculo"].ToString()), Convert.ToDouble(row["precio"]), row["cedulacliente"].ToString(), Convert.ToInt32(row["celularcliente"])));
-
+                prestamos.Add(new Prestamo(Convert.ToDateTime(row["fecha"]), PVehiculo.GetVehiculo(row["matriculavehiculo"].ToString()), Convert.ToDouble(row["precio"]), row["cedulacliente"].ToString(), Convert.ToInt32(row["celularcliente"])));
             }
             return Locales;
             }
-
+</script>

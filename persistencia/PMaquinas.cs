@@ -7,7 +7,7 @@ namespace obligatorio.persistencia
 {
     public class PMaquinas
     {
-        private static Conexion con = new Conexion();
+        private static Conexion conexion = new Conexion();
 
         public static Boolean AddMaquinas(Maquinas m)
         {
@@ -21,7 +21,7 @@ namespace obligatorio.persistencia
 
 
             Console.WriteLine("Ingresado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -37,7 +37,7 @@ namespace obligatorio.persistencia
 
 
             Console.WriteLine("Modificado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -50,7 +50,7 @@ namespace obligatorio.persistencia
             };
        
             Console.WriteLine("Eliminado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -63,7 +63,7 @@ namespace obligatorio.persistencia
             };
 
             Console.WriteLine("Conseguido con éxito");
-            DataSet data = con.Seleccion(sql, parametros);
+            DataSet data = conexion.Seleccion(sql, parametros);
             DataRow row = data.Tables[0].Rows[0];
             return new Maquinas(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString());
         }
@@ -72,7 +72,7 @@ namespace obligatorio.persistencia
         //    string sql = "SELECT * FROM persona";
 
         //    Console.WriteLine("Conseguido con éxito");
-        //    DataSet data = con.Seleccion(sql);
+        //    DataSet data = conexion.Seleccion(sql);
         //    List<Socios> personas = new List<Socios>();
         //    foreach (DataRow row in data.Tables[0].Rows)
         //    {

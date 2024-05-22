@@ -8,7 +8,7 @@ namespace obligatorio.persistencia
 {
     public class PResponsable
     {
-        private static Conexion con = new Conexion();
+        private static Conexion conexion = new Conexion();
 
         public static Boolean AddResponsable(Responsable r)
         {
@@ -22,7 +22,7 @@ namespace obligatorio.persistencia
 
 
             Console.WriteLine("Ingresado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -38,7 +38,7 @@ namespace obligatorio.persistencia
 
 
             Console.WriteLine("Modificado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -51,7 +51,7 @@ namespace obligatorio.persistencia
             };
 
             Console.WriteLine("Eliminado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
         
             return encontrado;
         }
@@ -60,13 +60,13 @@ namespace obligatorio.persistencia
         {
 
             string sql = "SELECT * FROM Responsable WHERE id=@id";
-
             SqlParameter[] parametros = {
                 new SqlParameter("@id", SqlDbType.Int) { Value = id }
             };
 
             Console.WriteLine("Conseguido con éxito");
-            DataSet data = con.Seleccion(sql, parametros);
+
+            DataSet data = conexion.Seleccion(sql, parametros);
             DataRow row = data.Tables[0].Rows[0];
             return new Responsable(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["telefono"].ToString());
         }

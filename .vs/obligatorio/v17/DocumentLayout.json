@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\persistencia\\psocios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:persistencia\\psocios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\pages\\pagessocios\\addsocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:pages\\pagessocios\\addsocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\persistencia\\pmaquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:persistencia\\pmaquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\clases\\socios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:clases\\socios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\clases\\local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:clases\\local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\persistencia\\presponsable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:persistencia\\presponsable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\clases\\responsable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:clases\\responsable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|g:\\semestre 3\\programacion 3\\5-mayo\\proyecto\\clases\\maquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8869724-7C2F-44C4-85D7-D5242A034AD8}|obligatorio.csproj|solutionrelative:clases\\maquinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddSocio.cshtml",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\Pages\\PagesSocios\\AddSocio.cshtml",
+              "RelativeDocumentMoniker": "Pages\\PagesSocios\\AddSocio.cshtml",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\Pages\\PagesSocios\\AddSocio.cshtml",
+              "RelativeToolTip": "Pages\\PagesSocios\\AddSocio.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T03:41:10.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PSocios.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\persistencia\\PSocios.cs",
+              "RelativeDocumentMoniker": "persistencia\\PSocios.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\persistencia\\PSocios.cs",
+              "RelativeToolTip": "persistencia\\PSocios.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:40:44.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Local.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Local.cs",
+              "RelativeDocumentMoniker": "clases\\Local.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Local.cs",
+              "RelativeToolTip": "clases\\Local.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:03:04.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:57:55.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PMaquinas.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\persistencia\\PMaquinas.cs",
+              "RelativeDocumentMoniker": "persistencia\\PMaquinas.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\persistencia\\PMaquinas.cs",
+              "RelativeToolTip": "persistencia\\PMaquinas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:49:05.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PResponsable.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\persistencia\\PResponsable.cs",
+              "RelativeDocumentMoniker": "persistencia\\PResponsable.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\persistencia\\PResponsable.cs",
+              "RelativeToolTip": "persistencia\\PResponsable.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:48:59.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Responsable.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Responsable.cs",
+              "RelativeDocumentMoniker": "clases\\Responsable.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Responsable.cs",
+              "RelativeToolTip": "clases\\Responsable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:46:59.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Socios.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Socios.cs",
+              "RelativeDocumentMoniker": "clases\\Socios.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Socios.cs",
+              "RelativeToolTip": "clases\\Socios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:47:00.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Maquinas.cs",
+              "DocumentMoniker": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Maquinas.cs",
+              "RelativeDocumentMoniker": "clases\\Maquinas.cs",
+              "ToolTip": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\clases\\Maquinas.cs",
+              "RelativeToolTip": "clases\\Maquinas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:46:59.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -470,23 +470,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lpv_7\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gianp\\.nuget\\packages\\": {},
+    "D:\\Visual\\C\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lpv_7\\source\\repos\\LucaPiscio\\obligatorio - copia\\obligatorio.csproj",
+      "projectUniqueName": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\obligatorio.csproj",
       "projectName": "obligatorio",
-      "projectPath": "C:\\Users\\Lpv_7\\source\\repos\\LucaPiscio\\obligatorio - copia\\obligatorio.csproj",
-      "packagesPath": "C:\\Users\\Lpv_7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lpv_7\\source\\repos\\LucaPiscio\\obligatorio - copia\\obj\\",
+      "projectPath": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\obligatorio.csproj",
+      "packagesPath": "C:\\Users\\gianp\\.nuget\\packages\\",
+      "outputPath": "G:\\Semestre 3\\Programacion 3\\5-Mayo\\Proyecto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Visual\\C\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lpv_7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gianp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -508,6 +508,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -538,7 +543,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

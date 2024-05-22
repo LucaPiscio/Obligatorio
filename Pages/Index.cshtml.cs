@@ -15,7 +15,7 @@ namespace obligatorio.Pages
 
         public void OnGet()
         {
-            PSocioss.GetSocio(2);
+            PSocios.GetSocios(2);
         }
     }
 }

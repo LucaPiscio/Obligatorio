@@ -6,7 +6,7 @@ namespace obligatorio.persistencia
 {
     public class PSocios
     {
-        private static Conexion con = new Conexion();
+        private static Conexion conexion = new Conexion();
 
         public static Boolean AddSocios(Socios p)
         {
@@ -23,7 +23,7 @@ namespace obligatorio.persistencia
 
 
             Console.WriteLine("Ingresado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -42,7 +42,7 @@ namespace obligatorio.persistencia
 
 
             Console.WriteLine("Modificado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -55,7 +55,7 @@ namespace obligatorio.persistencia
             };
 
             Console.WriteLine("Eliminado con éxito");
-            bool encontrado = con.Consulta(sql, parametros);
+            bool encontrado = conexion.Consulta(sql, parametros);
             return encontrado;
         }
 
@@ -69,29 +69,24 @@ namespace obligatorio.persistencia
             };
 
             Console.WriteLine("Conseguido con éxito");
-            DataSet data = con.Seleccion(sql, parametros);
+            DataSet data = conexion.Seleccion(sql, parametros);
             DataRow row = data.Tables[0].Rows[0];
 
-            // ESTO QUE ESTA DENTRO DEL CONSOLE WRITELINE TRAE EL ID DEL LOCAL DEL SOCIO
-            Console.WriteLine(row["idLocal"].ToString());
-            //row["local"].ToString() ESTA FORMA NO FUNCIONA PORQUE EL NOMBRE DENTRO DE [] DEBE SER EL MISMO QUE EL CAMPO EN LA TABLA (idLocal)
-
-            // IMPORTANTE: PARA CREAR SOCIOS TENDRIAS QUE CREAR UN METODO QUE RECIBA EL ID Y DEVUELVA EL LOCAL (EL ID LO CONSEGUIS COMO EN LA LINEA ANTERIOR)
-            return new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString(), row["telefono"].ToString(), row["mail"].ToString(), new Local());
+            return new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString(), row["telefono"].ToString(), row["mail"].ToString(), PLocal.Getlocal(Convert.ToInt32(row["idLocal"])));
         }
-        //public static List<Socios> GetPersonas()
-        //{
-        //    string sql = "SELECT * FROM persona";
+        public static List<Socios> GetPersonas()
+        {
+            string sql = "SELECT * FROM persona";
 
-        //    Console.WriteLine("Conseguido con éxito");
-        //    DataSet data = con.Seleccion(sql);
-        //    List<Socios> personas = new List<Socios>();
-        //    foreach (DataRow row in data.Tables[0].Rows)
-        //    {
-        //        personas.Add(new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["apellido"].ToString(), row["ci"].ToString(), new Local()));
-        //    }
-        //    return personas;
-        //}
+            Console.WriteLine("Conseguido con éxito");
+            DataSet data = conexion.Seleccion(sql);
+            List<Socios> personas = new List<Socios>();
+            foreach (DataRow row in data.Tables[0].Rows)
+            {
+                personas.Add(new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString(), row["telefono"].ToString(), row["mail"].ToString(), PLocal.Getlocal(Convert.ToInt32(row["idLocal"]))));
+           }
+            return personas;
+        }
     }
 }
 

@@ -1,0 +1,9 @@
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.csproj.AssemblyReference.cache
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.GeneratedMSBuildEditorConfig.editorconfig
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.AssemblyInfoInputs.cache
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.AssemblyInfo.cs
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.csproj.CoreCompileInputs.cache
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.MvcApplicationPartsAssemblyInfo.cache
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.RazorAssemblyInfo.cache
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.RazorAssemblyInfo.cs
+G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.sourcelink.json
