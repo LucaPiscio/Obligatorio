@@ -12,10 +12,10 @@ namespace obligatorio.persistencia
 
         public static Boolean AddResponsable(Responsable r)
         {
-            string sql = "INSERT INTO Responsable (id, nombre, telefono) VALUES (@id, @nombre, @telefono)";
+            string sql = "INSERT INTO Responsable (idRespon, nombre, telefono) VALUES (@idRespon, @nombre, @telefono)";
 
             SqlParameter[] parametros = {
-                new SqlParameter("@id", SqlDbType.Int) { Value = r.Id },
+                new SqlParameter("@idRespon", SqlDbType.Int) { Value = r.IdRespon },
                 new SqlParameter("@nombre", SqlDbType.VarChar) { Value = r.Nombre },
                 new SqlParameter("@telefono", SqlDbType.VarChar) { Value = r.Telefono },
             };
@@ -28,10 +28,10 @@ namespace obligatorio.persistencia
 
         public static Boolean UpdateResponsable(Responsable r)
         {
-            string sql = "UPDATE Responsable SET nombre=@nombre, telefono=@telefono WHERE id=@id";
+            string sql = "UPDATE Responsable SET nombre=@nombre, telefono=@telefono WHERE idRespon=@idRespon";
 
             SqlParameter[] parametros = {
-                new SqlParameter("@id", SqlDbType.Int) { Value = r.Id },
+                new SqlParameter("@idRespon", SqlDbType.Int) { Value = r.IdRespon },
                 new SqlParameter("@nombre", SqlDbType.VarChar) { Value = r.Nombre },
                 new SqlParameter("@telefono", SqlDbType.VarChar) { Value = r.Nombre },
             };
@@ -61,14 +61,14 @@ namespace obligatorio.persistencia
 
             string sql = "SELECT * FROM Responsable WHERE id=@id";
             SqlParameter[] parametros = {
-                new SqlParameter("@id", SqlDbType.Int) { Value = id }
+                new SqlParameter("@idRespon", SqlDbType.Int) { Value = id }
             };
 
             Console.WriteLine("Conseguido con éxito");
 
             DataSet data = conexion.Seleccion(sql, parametros);
             DataRow row = data.Tables[0].Rows[0];
-            return new Responsable(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["telefono"].ToString());
+            return new Responsable(Convert.ToInt32(row["idRespon"]), row["nombre"].ToString(), row["telefono"].ToString());
         }
     }
 }

@@ -10,7 +10,7 @@ namespace obligatorio.persistencia
 
         public static Boolean AddSocios(Socios p)
         {
-            string sql = "INSERT INTO Socios (id, nombre, tipo, telefono, mail,idLocal) VALUES (@id, @nombre, @tipo,@telefono,@mail @idLocal)";
+            string sql = "INSERT INTO Socio (id, nombre, tipo, telefono, mail,idLocal) VALUES (@id, @nombre, @tipo,@telefono,@mail @idLocal)";
 
             SqlParameter[] parametros = {
                 new SqlParameter("@id", SqlDbType.Int) { Value = p.Id },
@@ -29,7 +29,7 @@ namespace obligatorio.persistencia
 
         public static Boolean UpdateSocios(Socios p)
         {
-            string sql = "UPDATE persona SET nombre=@nombre, tipo=@tipo, telefono=@telefono, mail=@mail, idLocal=@idLocal WHERE id=@id";
+            string sql = "UPDATE Socios SET nombre=@nombre, tipo=@tipo, telefono=@telefono, mail=@mail, idLocal=@idLocal WHERE id=@id";
 
             SqlParameter[] parametros = {
                 new SqlParameter("@id", SqlDbType.Int) { Value = p.Id },
@@ -74,9 +74,9 @@ namespace obligatorio.persistencia
 
             return new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString(), row["telefono"].ToString(), row["mail"].ToString(), PLocal.Getlocal(Convert.ToInt32(row["idLocal"])));
         }
-        public static List<Socios> GetPersonas()
+        public static List<Socios> GetSocios()
         {
-            string sql = "SELECT * FROM persona";
+            string sql = "SELECT * FROM Socio";
 
             Console.WriteLine("Conseguido con éxito");
             DataSet data = conexion.Seleccion(sql);

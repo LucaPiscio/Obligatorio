@@ -8,16 +8,17 @@ using System.Data;
         {
             private static Conexion conexion = new Conexion();
 
-            public static Boolean Addlocal(Local m)
+            public static Boolean Addlocal(Local l)
             {
-                string sql = "INSERT INTO local (idLocal, name, city, phone, idRespon) VALUES (@id, @nombre, @tipo, @id)";
+                string sql = "INSERT INTO Local (idLocal, nombre, ciudad,direccion,telefono, idRespon) VALUES (@id, @nombre, @ciudad, @direcicon,@telefono,@idRespon)";
 
                 SqlParameter[] parametros = {
-                new SqlParameter("@idLocal", SqlDbType.Int) { Value = m.IdLocal },
-                new SqlParameter("@name", SqlDbType.VarChar) { Value = m.Name },
-                new SqlParameter("@city", SqlDbType.VarChar) { Value = m.City },
-                new SqlParameter("@phone", SqlDbType.VarChar) { Value = m.Phone },
-                new SqlParameter("@idRespon", SqlDbType.VarChar) { Value = m.IdRespon },
+                new SqlParameter("@idLocal", SqlDbType.Int) { Value = l.IdLocal },
+                new SqlParameter("@nombre", SqlDbType.VarChar) { Value = l.Nombre },
+                new SqlParameter("@ciudad", SqlDbType.VarChar) { Value = l.Ciudad },
+                new SqlParameter("@direccion", SqlDbType.VarChar) { Value = l.Direccion },
+                new SqlParameter("@telefono", SqlDbType.VarChar) { Value = l.Telefono },
+                new SqlParameter("@idRespon", SqlDbType.VarChar) { Value = l.IdRespon },
             };
 
 
@@ -26,16 +27,17 @@ using System.Data;
                 return encontrado;
             }
 
-            public static Boolean Updatelocal(Local m)
+            public static Boolean Updatelocal(Local l)
             {
-                string sql = "UPDATE local SET nombre=@nombre, tipo=@tipo WHERE id=@id";
+                string sql = "UPDATE Local SET nombre=@nombre, ciudad=@ciudad,direccion=@direccion,telefono=@telefono,idRespon=@idRespon WHERE idLocal=@idLocal";
 
                 SqlParameter[] parametros = {
-                new SqlParameter("@idLocal", SqlDbType.Int) { Value = m.IdLocal },
-                new SqlParameter("@name", SqlDbType.VarChar) { Value = m.Name },
-                new SqlParameter("@city", SqlDbType.VarChar) { Value = m.City },
-                new SqlParameter("@phone", SqlDbType.VarChar) { Value = m.Phone },
-                new SqlParameter("@idRespon", SqlDbType.VarChar) { Value = m.IdRespon },
+                new SqlParameter("@idLocal", SqlDbType.Int) { Value = l.IdLocal },
+                new SqlParameter("@nombre", SqlDbType.VarChar) { Value = l.Nombre },
+                new SqlParameter("@ciudad", SqlDbType.VarChar) { Value = l.Ciudad },
+                new SqlParameter("@direccion", SqlDbType.VarChar) { Value = l.Direccion },
+                new SqlParameter("@telefono", SqlDbType.VarChar) { Value = l.Telefono},
+                new SqlParameter("@idRespon", SqlDbType.VarChar) { Value = l.IdRespon },
             };
 
 
@@ -68,23 +70,23 @@ using System.Data;
                 Console.WriteLine("Conseguido con éxito");
                 DataSet data = conexion.Seleccion(sql, parametros);
                 DataRow row = data.Tables[0].Rows[0];
-                return new Local(Convert.ToInt32(row["idLocal"]), row["name"].ToString(), row["city"].ToString(), row["phone"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["id"])));
+                return new Local(Convert.ToInt32(row["idLocal"]), row["nombre"].ToString(), row["ciudad"].ToString(), row["direccion"].ToString(), row["telefono"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["id"])));
         }
 
-            public static List<Locales>  Getlocales()
+            public static List<Local>  Getlocales()
             {
             string sql = "SELECT * FROM Local";
 
             Console.WriteLine("Conseguidos con éxito");
             DataSet data = conexion.Seleccion(sql);
-            List<Locales>
-                locales = new List<Locales>
+            List<Local>
+                locales = new List<Local>
                     ();
             foreach (DataRow row in data.Tables[0].Rows)
             {
-                locales.Add(new Local(PLocal.Getlocal(Convert.ToInt32(row["idLocal"]), row["name"].ToString(), row["city"].ToString(), row["phone"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["id"])));
+                locales.Add(new Local(Convert.ToInt32(row["idLocal"]), row["nombre"].ToString(), row["ciudad"].ToString(), row["direccion"].ToString(), row["telefono"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["idRespon"]))));
             }
-            return Locales;
+            return locales;
             }
         }
     }
