@@ -70,5 +70,20 @@ namespace obligatorio.persistencia
             DataRow row = data.Tables[0].Rows[0];
             return new Responsable(Convert.ToInt32(row["idRespon"]), row["nombre"].ToString(), row["telefono"].ToString());
         }
+
+        public static List<Responsable> GetResponsable()
+        {
+            string sql = "SELECT * FROM Responsable";
+
+            Console.WriteLine("Conseguido con éxito");
+            DataSet data = conexion.Seleccion(sql);
+            List<Responsable> responsables = new List<Responsable>();
+            foreach (DataRow row in data.Tables[0].Rows)
+            {
+                responsables.Add(new Responsable(Convert.ToInt32(row["idRespon"]), row["nombre"].ToString(),row["telefono"].ToString()));
+            }
+           
+            return responsables;
+        }
     }
 }

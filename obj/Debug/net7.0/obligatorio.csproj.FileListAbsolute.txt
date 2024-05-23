@@ -7,3 +7,41 @@ G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.MvcApp
 G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.RazorAssemblyInfo.cache
 G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.RazorAssemblyInfo.cs
 G:\Semestre 3\Programacion 3\5-Mayo\Proyecto\obj\Debug\net7.0\obligatorio.sourcelink.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.csproj.AssemblyReference.cache
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.AssemblyInfoInputs.cache
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.AssemblyInfo.cs
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.RazorAssemblyInfo.cache
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.RazorAssemblyInfo.cs
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\appsettings.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\obligatorio.staticwebassets.runtime.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\obligatorio.exe
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\obligatorio.deps.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\obligatorio.runtimeconfig.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\obligatorio.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\obligatorio.pdb
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets\msbuild.obligatorio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets\msbuild.build.obligatorio.props
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.obligatorio.props
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.obligatorio.props
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\scopedcss\bundle\obligatorio.styles.css
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\scopedcss\projectbundle\obligatorio.bundle.scp.css
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.csproj.CopyComplete
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\refint\obligatorio.dll
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.pdb
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\obligatorio.genruntimeconfig.cache
+C:\Users\Lpv_7\OneDrive\Escritorio\Parcial.2\obj\Debug\net7.0\ref\obligatorio.dll

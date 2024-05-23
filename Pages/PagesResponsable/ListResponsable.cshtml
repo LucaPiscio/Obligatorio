@@ -1,0 +1,34 @@
+﻿@page
+@model obligatorio.Pages.PagesResponsable.ListResponsableModel
+
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Responsables</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Telefono</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Responsable in Model.responsables)
+            {
+                <tr>
+                    <td>@Responsable.IdRespon</td>
+                    <td>@Responsable.Nombre</td>
+                    <td>@Responsable.Telefono</td>
+                    <td>
+                        <a class="btn btn-primary" asp-page="./UpdateResponsable" asp-route-id="@Responsable.IdRespon">Editar</a>
+                        <form method="post" asp-page-handler="DeleteResponsable">
+                            <input type="hidden" name="id" value="@Responsable.IdRespon" />
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

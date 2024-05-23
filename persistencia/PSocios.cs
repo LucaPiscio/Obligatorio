@@ -29,7 +29,7 @@ namespace obligatorio.persistencia
 
         public static Boolean UpdateSocios(Socios p)
         {
-            string sql = "UPDATE Socios SET nombre=@nombre, tipo=@tipo, telefono=@telefono, mail=@mail, idLocal=@idLocal WHERE id=@id";
+            string sql = "UPDATE Socio SET nombre=@nombre, tipo=@tipo, telefono=@telefono, mail=@mail, idLocal=@idLocal WHERE id=@id";
 
             SqlParameter[] parametros = {
                 new SqlParameter("@id", SqlDbType.Int) { Value = p.Id },
@@ -48,7 +48,7 @@ namespace obligatorio.persistencia
 
         public static Boolean DeleteSocios(int id)
         {
-            string sql = "DELETE Socios WHERE id=@id";
+            string sql = "DELETE Socio WHERE id=@id";
 
             SqlParameter[] parametros = {
                 new SqlParameter("@id", SqlDbType.Int) { Value = id }
@@ -62,7 +62,7 @@ namespace obligatorio.persistencia
         public static Socios GetSocios(int id)
         {
             // Cambié Socio por Socios (nombre de la tabla)
-            string sql = "SELECT * FROM Socios WHERE id=@id";
+            string sql = "SELECT * FROM Socio WHERE id=@id";
 
             SqlParameter[] parametros = {
                 new SqlParameter("@id", SqlDbType.Int) { Value = id }
@@ -80,12 +80,12 @@ namespace obligatorio.persistencia
 
             Console.WriteLine("Conseguido con éxito");
             DataSet data = conexion.Seleccion(sql);
-            List<Socios> personas = new List<Socios>();
+            List<Socios> socios = new List<Socios>();
             foreach (DataRow row in data.Tables[0].Rows)
             {
-                personas.Add(new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString(), row["telefono"].ToString(), row["mail"].ToString(), PLocal.Getlocal(Convert.ToInt32(row["idLocal"]))));
-           }
-            return personas;
+                socios.Add(new Socios(Convert.ToInt32(row["id"]), row["nombre"].ToString(), row["tipo"].ToString(), row["telefono"].ToString(), row["mail"].ToString(), PLocal.Getlocal(Convert.ToInt32(row["idLocal"]))));
+            }
+            return socios;
         }
     }
 }
