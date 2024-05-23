@@ -26,34 +26,34 @@
         </div>
         <div class="form-group">
             <label for="Local">Locales:</label>
-            <select class="form-control" id="local" name="local" onchange="seleccionarVehiculo()">
+            <select class="form-control" id="local" name="local" onchange="seleccionarLocal()">
                 @foreach (var Local in Model.Local)
                     {
-                    <option value="@Local.Nombre">@vehiculo.Matricula $@vehiculo.PrecioMercado</option>
+                    <option value="@Local.Nombre">@Local.ciudad </option>
                 }
             </select>
         </div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="AddPersona">Agregar Persona</button>
+        <button type="submit" class="btn btn-primary" asp-page-handler="AddSocio">Agregar Socio</button>
     </form>
 
 </div>
-agregar lista a Local para usar en model
 <script>
-    public static List<Locales>
-
-    Getlocales()
+    function seleccionarLocal()
     {
-    string sql = "SELECT * FROM Local";
+        var localseleccionado = document.getElementById("locales").value;
 
-    Console.WriteLine("Conseguidos con éxito");
-    DataSet data = conexion.Seleccion(sql);
-    List<Locales>
-        prestamos = new List<Locales>
-            ();
-            foreach (DataRow row in data.Tables[0].Rows)
-            {
-                prestamos.Add(new Prestamo(Convert.ToDateTime(row["fecha"]), PVehiculo.GetVehiculo(row["matriculavehiculo"].ToString()), Convert.ToDouble(row["precio"]), row["cedulacliente"].ToString(), Convert.ToInt32(row["celularcliente"])));
+        $.ajax({
+            url: "?handler=ConseguirCalculoPrecio&matricula=" + localseleccionado,
+            method: "GET",
+            success: function (response) {
+                // Manejar la respuesta del servidor si es necesario
+                document.getElementById("nombre").value = response;
+                console.log(response);
+            },
+            error: function (xhr, status, error) {
+                // Manejar errores si es necesario
+                console.error("Error en la solicitud AJAX:", error);
             }
-            return Locales;
-            }
+        });
+    }
 </script>

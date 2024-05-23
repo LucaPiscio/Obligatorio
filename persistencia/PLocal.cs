@@ -68,7 +68,23 @@ using System.Data;
                 Console.WriteLine("Conseguido con éxito");
                 DataSet data = conexion.Seleccion(sql, parametros);
                 DataRow row = data.Tables[0].Rows[0];
-                return new Local(Convert.ToInt32(row["idLocal"]), row["name"].ToString(), row["city"].ToString(), row["phone"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["id"]))); 
+                return new Local(Convert.ToInt32(row["idLocal"]), row["name"].ToString(), row["city"].ToString(), row["phone"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["id"])));
+        }
+
+            public static List<Locales>  Getlocales()
+            {
+            string sql = "SELECT * FROM Local";
+
+            Console.WriteLine("Conseguidos con éxito");
+            DataSet data = conexion.Seleccion(sql);
+            List<Locales>
+                locales = new List<Locales>
+                    ();
+            foreach (DataRow row in data.Tables[0].Rows)
+            {
+                locales.Add(new Local(PLocal.Getlocal(Convert.ToInt32(row["idLocal"]), row["name"].ToString(), row["city"].ToString(), row["phone"].ToString(), PResponsable.GetResponsable(Convert.ToInt32(row["id"])));
+            }
+            return Locales;
             }
         }
     }
